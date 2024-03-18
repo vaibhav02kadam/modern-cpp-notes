@@ -22,11 +22,13 @@ public:
 };
 
 int main()
-{
-    {
-        std::unique_ptr<Entity> entity = std::make_unique<Entity>();
+{  
+        {
+            //Unique Pointer
+            std::unique_ptr<Entity> entity = std::make_unique<Entity>();
 
-        entity->Print();
-    }
+            entity->Print();
+        }
+    
     std::cin.get();
 }
